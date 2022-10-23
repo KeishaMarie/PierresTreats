@@ -1,0 +1,24 @@
+@{
+  Layout = "_Layout";
+}
+
+@using Pierres.Models;
+
+<h2>Tasty Treats</h2>
+
+@if(@Model.Count == 0)
+{
+  <h4>No treats available.</h4>
+}
+else
+{
+  <ul>
+    @foreach(Treat treat in Model)
+    {
+      <li>@Html.ActionLink($"{treat.TreatName}", "Details", new {id = treat.TreatId})</li>
+    }
+  </ul>
+}
+<hr />
+
+<p>@Html.ActionLink("Add Treat", "Create")</p>
