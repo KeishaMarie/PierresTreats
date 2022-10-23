@@ -7,7 +7,7 @@
 <h2>Add a New Flavor</h2>
 @using (Html.BeginForm())
 {
-  @Html.LabelFor(model => model.FlavorDescription)
+  @Html.Label("Flavor ")
   @Html.TextBoxFor(model => model.FlavorDescription)
 
   <input type="submit" value="Add New Flavor" class="btn btn-default" />

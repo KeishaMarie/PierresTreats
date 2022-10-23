@@ -22,6 +22,7 @@ else
     }
   </ul>
 }
+<p>@Html.ActionLink("Add a Treat", "AddTreat", "Flavors", new {id = @Model.FlavorId})</p>
 <hr />
 
 <p>@Html.ActionLink("Edit Flavor", "Edit", new {id = Model.FlavorId})</p>
