@@ -1,4 +1,3 @@
-
 namespace Pierres.ViewModels
 {
     public class LoginViewModel

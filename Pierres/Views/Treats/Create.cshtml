@@ -7,7 +7,7 @@
 <h2>Add a New Treat</h2>
 @using (Html.BeginForm())
 {
-  @Html.Label("Treat ")
+  @Html.Label("Treat: ")
   @Html.TextBoxFor(model => model.TreatName)
 
   <input type="submit" value="Add New Treat" class="btn btn-default" />

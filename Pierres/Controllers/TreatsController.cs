@@ -93,7 +93,7 @@ namespace Pierres.Controllers
         _db.TreatFlavor.Add(new TreatFlavor() { FlavorId = FlavorId, TreatId = treat.TreatId });
       }
       _db.SaveChanges();
-      return RedirectToAction("Index")
+      return RedirectToAction("Index");
     }
 
     public ActionResult Delete(int id)
