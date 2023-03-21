@@ -17,7 +17,7 @@
 
 ## Description
 
-This is an MVC application that allows users to view Treats and Flavors for a bakery. Users are able to register and then log in to Create, Edit and Delete flavors or treats. If the user is not registers, they will only be able to view the Treats and Flavors without any modification abilities.
+This is an MVC application that allows users to view Treats and Flavors for a bakery. Users are able to register and then log in to Create, Edit and Delete flavors or treats. If the user is not registered, they will only be able to view the Treats and Flavors without any modification abilities.
 
 ## Setup/Installation Requirements
 
